@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* 共通 */
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
+/* header */
+.header__inner {
+  height: 80px;
+  position: relative;
+}
+
+.bolt-icon {
+  font-size: 3em;
+  padding: 15px 0;
+  color: gray;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header__inner__contact {
+  background-color: #74cfae;
+  padding: 14px 12px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.contact-text {
+  font-size: 12px;
+  color: #fff;
+}
+
+/* main */
+
+
+/* footer */
