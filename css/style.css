@@ -45,7 +45,7 @@
 .header__inner__contact {
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 30px;
 }
 
 /* main */
@@ -131,6 +131,8 @@
 }
 
 .article__inner__content {
+  width: 900px;
+  margin: 0 auto;
   padding: 90px 0 70px 0;
   display: flex;
   text-align: center;
