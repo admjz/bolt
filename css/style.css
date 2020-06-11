@@ -136,6 +136,7 @@
 
 .article__inner__content {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
   margin-top: 90px;
 }
@@ -148,7 +149,6 @@
 }
 
 .article__inner__content__button {
-  height: 18px;
   margin-left: 90px;
   padding: 14px 20px;
   font-size: 12px;
