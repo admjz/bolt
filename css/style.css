@@ -207,6 +207,7 @@ img {
   padding: 200px 0;
   box-sizing: border-box;
   text-align: center;
+  font-size: 0;
 }
 
 .sns__inner__icons {
@@ -214,6 +215,7 @@ img {
   color:  #74cfae;
   display: inline-block;
   padding: 30px 0;
+  font-size: 15px;
   transition: 0.3s;
 }
 
@@ -240,11 +242,6 @@ img {
 @media screen and (max-width: 1199px) {
   .inner {
     width: 97%;
-  }
-
-  /* header */
-  .header__inner {
-    width: 80%;
   }
 
    /* main__section */
@@ -315,6 +312,11 @@ img {
   .skills__image__box:first-child {
     margin: 0 0 0 0;
   }
+
+   /* main__sns */
+  .sns__inner__icons {
+    width: 25%;
+  }
 }
 
 
@@ -368,10 +370,6 @@ img {
   /* main__section */
   .section__inner {
     padding: 50px 0;
-  }
-
-  .section__inner__text {
-    width: 300px;
   }
 
   /* main__article */
